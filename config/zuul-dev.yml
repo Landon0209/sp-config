@@ -1,3 +1,14 @@
+
+spring:
+  rabbitmq:
+ 
+    host: 192.168.2.137
+    port: 5672
+    username: admin
+    password: admin
+
+
+
 spring:
   application:
     name: zuul

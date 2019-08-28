@@ -1,3 +1,13 @@
+spring:
+  rabbitmq:
+ 
+    host: 192.168.2.137
+    port: 5672
+    username: admin
+    password: admin
+
+
+
 sp:
   user-service:
     users: "[{\"id\":7, \"username\":\"abc\",\"password\":\"123\"},{\"id\":8, \"username\":\"def\",\"password\":\"456\"},{\"id\":9, \"username\":\"ghi\",\"password\":\"789\"}]"
